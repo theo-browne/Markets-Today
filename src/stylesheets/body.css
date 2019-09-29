@@ -1,0 +1,66 @@
+.news{
+    width:40%;
+    border: 1px solid green;
+    height: 50vh
+}
+.news > div{
+    /* height: 50px; */
+}
+.news > div > img {
+    height: 80%;
+    width: 100%
+}
+.news > div > li {
+    list-style: none
+}
+
+.main{
+    width: 100%;
+    display: flex;
+}
+body{
+        /* background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4198140/910/624/m2/fpnw/wm1/pcrafn5uno9j4ougvf4aw5klyidvrmythjqogbqmoz50dkkaulme4kbykbp5jiri-.jpg?1522168127&s=c630eaeb5f96fd90ab7c18c310e8aa63") */
+
+}
+.graphics{
+     height: 60vh;
+     border: 1px solid red;
+     width: 60%
+}
+.movers{
+    border: 1px solid purple;
+    height: 20%;
+    display: flex
+}
+.mover{
+    width:20%;
+    box-sizing: border-box;
+    height: 100%;
+    border: 1px solid gold
+}
+
+.main-graphics{
+    display: flex;
+    width: 100%;
+    height: 80%;
+        box-sizing: border-box;
+
+}
+.main-graphics-1{
+    width: 60%;;
+    border: 1px solid blueviolet;
+    height: 100%;
+        box-sizing: border-box;
+
+}  
+.main-graphics-1 > div {
+    width: 100%;
+    height: 100%;
+}
+.main-graphics-2{
+    width: 40%;
+     border: 1px solid orange;
+     height: 100%;
+         box-sizing: border-box;
+
+}

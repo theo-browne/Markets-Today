@@ -1,0 +1,21 @@
+body{
+  font-family: 'Crimson Text', serif;
+}
+
+.main-nav  {
+  text-align: center;
+  border-bottom: 1px solid navy
+}
+.sections{
+  display: flex
+}
+.sections > ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none
+}
+.sections > ul li:hover{
+  color: navy;
+  cursor: pointer;
+}
